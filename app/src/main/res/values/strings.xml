@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">WorkSpace</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_desc">Enter the Registered Account E-mail to reset your password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_Download">Your Downloads</string>
+    <string name="profile_Upload">Your Uploads</string>
+    <string name="note_label">*Specifying custom other field won\'t be indexable in feed</string>
+    <string name="app_credits">by Prasium</string>
+    <string name="empty_download_label">You haven\'t downloaded any file</string>
+    <string name="empty_upload_label">You haven\'t uploaded anything</string>
+
+
+    <string-array name="category_array">
+        <item>Language Arts</item>
+        <item>Mathematics</item>
+        <item>Science</item>
+        <item>Health</item>
+        <item>Handwriting</item>
+        <item>Physical Education (PE)</item>
+        <item>Art</item>
+        <item>Music</item>
+        <item>Sports</item>
+        <item>Dramatics</item>
+        <item>Dance</item>
+        <item>Leadership</item>
+        <item>Comedy</item>
+        <item>Resource Program</item>
+        <item>Computer</item>
+        <item>Technology</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="view_array">
+        <item>All</item>
+        <item>Language Arts</item>
+        <item>Mathematics</item>
+        <item>Science</item>
+        <item>Health</item>
+        <item>Handwriting</item>
+        <item>Physical Education (PE)</item>
+        <item>Art</item>
+        <item>Music</item>
+        <item>Sports</item>
+        <item>Dramatics</item>
+        <item>Dance</item>
+        <item>Leadership</item>
+        <item>Comedy</item>
+        <item>Resource Program</item>
+        <item>Computer</item>
+        <item>Technology</item>
+        <item>Other</item>
+
+    </string-array>
+
+</resources>

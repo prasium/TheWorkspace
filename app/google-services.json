@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "135686885847",
+    "firebase_url": "https://theworkspace-a8c97.firebaseio.com",
+    "project_id": "theworkspace-a8c97",
+    "storage_bucket": "theworkspace-a8c97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135686885847:android:61ca2aa59ab75f91e4fb92",
+        "android_client_info": {
+          "package_name": "com.example.android.theworkspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135686885847-f9dp2ugdv2bfb03dio9vpmd52o669p00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.theworkspace",
+            "certificate_hash": "ca9f804e6d6b80078d6170762d2664a4286d45ff"
+          }
+        },
+        {
+          "client_id": "135686885847-5r84p42ppuu21mk79ivdp68fjh1iov2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIqFh-A1A6kYjGmIg-GqE7aykZCr5UicA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135686885847-5r84p42ppuu21mk79ivdp68fjh1iov2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

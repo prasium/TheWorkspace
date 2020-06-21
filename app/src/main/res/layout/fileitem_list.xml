@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/row_item"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white_smoke">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lavender"
+        android:id="@+id/cardContainer"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/FileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:padding="2dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/Category"
+            android:layout_below="@+id/FileName"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/UName_Label"
+            android:layout_below="@id/Category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="By :"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+ />
+        <TextView
+            android:id="@+id/Uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Category"
+            android:layout_toRightOf="@id/UName_Label"
+            android:padding="2dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/DateLabel"
+            android:layout_below="@+id/Uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="2dp"
+            android:text="Uploaded on :"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_below="@+id/Uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/DateLabel"
+            android:padding="2dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:gravity="right">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/view_btn"
+        android:background="@drawable/btn_view"
+        android:layout_gravity="center"
+        android:text="View"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/down_btn"
+        android:padding="10dp"
+        android:background="@drawable/downbtn"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</com.google.android.material.card.MaterialCardView>
